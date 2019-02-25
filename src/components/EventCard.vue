@@ -4,18 +4,18 @@
 
 <script>
 export default {
-  props: {
-    propName: {
-      type: Number,
-      default: 2
-    }
-  },
-  data() {
-    return {
-      key: "value"
-    };
-  }
-};
+    props: {
+        propName: {
+            type: Number,
+            default: 2,
+        },
+    },
+    data() {
+        return {
+            key: 'value',
+        }
+    },
+}
 </script>
 
 <style></style>
